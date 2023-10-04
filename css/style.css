@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Lalezar&family=Lateef:wght@200;300;400;500;600;700;800&family=Lemonada:wght@300;400;500;600;700&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vibes&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Amiri', serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.home{
+    height: 100vh;
+    background: #0162be;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 200px;
+}
+
+nav img{
+    width: 50px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav .nav-txt ul li{
+    margin-right: 50px;
+    color: #0162be;
+    font-weight: bold;
+}
+
+nav .nav-txt ul li a:hover{
+    color: red;
+}
+
+.bod{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px 200px;
+    align-items: center;
+    height: 70%;
+}
+
+.bod .txtbox{
+    width: 700px;
+}
+
+.bod .txtbox h1{
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.bod .txtbox h1 p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bod .txtbox p{
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    width: 85%;
+}
+
+.bod .txtbox .btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.bod .txtbox .btn:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.bod .img img{
+    width: 200px;
+    animation: animation1 1s ease-out;
+}
+
+.bod .img img:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+.bod .social i{
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    animation: animation1 1s ease-out;
+}
+
+.bod .social i:hover{
+    color: red;
+}
+
+.pepsi-3{
+    width: max-content;
+    border: 1px solid #fff;
+    border-radius: 1.7em;
+    padding: 5px 10px 0px;
+    align-items: center;
+    margin: 70px auto;
+    animation: animation2 1s ease-out;
+}
+
+.pepsi-3 img{
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.pepsi-3 img:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+@keyframes animation1{
+    0%{
+        transform: translateX(500px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animation2{
+    0%{
+        transform: translateY(150px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
